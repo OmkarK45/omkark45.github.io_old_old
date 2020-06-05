@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link rel="stylesheet" href="/style.css">
+    <title>Omkar Kulkarni</title>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <div class="container pt-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#" id="myBrand"> <img src="/assets/logo.png" style="width: 60%;" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <div class="container d-flex flex-row-reverse" id="nav-container">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/routes/education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/routes/projects.html">Projects</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#opensource">Open Source</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/routes/contact.html">Contact Me</a>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- AREA -->
+<!-- 
+<div class="container" id="grid-container">
+    <div class="box1">
+        <img src="/assets/projects.svg" alt="">
+    </div>
+    <div class="box2">
+        <h1>Projects</h1>
+    </div>
+</div> -->
+
+<div class="container mt-5">
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 d-flex imageHolder">
+                <img src="/assets/projects.svg" alt="">
+            </div>
+            <div class="col-lg-6 col-sm-12 d-flex textHolder">
+                <h1>Projects</h1>
+                <p>I have worked on some projects from over 2 years. I have put lot of efforts in making them :P</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="mt-5">
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="container text-center">
+                <h1>My Projects</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-lg-12">
+        <div class="row mt-5">
+            <div class="col-lg-4 ">
+                <div class="card" style="width: 1fr">
+                    <div class="image-card">
+                        <img src="/assets/yelp.png" class="card-img-top shadow bg-white rounded" alt="...">
+                        <h6>View</h6>
+                    </div>
+                    <h5 class="card-title course-title mt-2 ml-4">
+                        YelpCamp - A full stack webapp
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">YelpCamp is a complete platform for campaigners. It has popular campsite listing as well as user reviews. Written in NodeJS, Express and MongoDB</p>
+                      <a href="https://udemy.com" class="btn btn-primary">View Project</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="card" style="width:1fr;">
+                    <div class="image-card">
+                        <img src="/assets/cat.png" class="card-img-top shadow bg-white rounded" alt="...">
+                    </div>
+                    <h5 class="card-title course-title mt-2 ml-4">
+                        Purrfect Match - Tinder for cats
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">Landing page designed for Purrfect Match - A fictional Tinder like application but for cats :D</p>
+                      <a href="https://udemy.com" class="btn btn-primary">View Project</a>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="card" style="width: 1fr;">
+                    <div class="image-card">
+                        <img src="/assets/pattern.png" class="card-img-top shadow bg-white rounded" alt="...">
+                    </div>
+                    <h5 class="card-title course-title mt-2 ml-4">
+                        Pattern - Image Gallery
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">Pattern is a image gallery where user can upload and share images.</p>
+                      <a href="https://udemy.com" class="btn btn-primary">View Project</a>
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-4 ">
+                <div class="card" style="width: 1fr;">
+                    <div class="image-card">
+                        <img src="/assets/color.png" class="card-img-top shadow bg-white rounded" alt="...">
+                    </div>
+                    <h5 class="card-title course-title mt-2 ml-4">
+                        RGB Color Game using JavaScript
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">Fully working RGB Color guessing game. Written in JavaScript. Has Easy and Hard mode levels.</p>
+                      <a href="https://udemy.com" class="btn btn-primary">View Project</a>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="card" style="width: 1fr;">
+                    <div class="image-card">
+                        <img src="/assets/candy.png" class="card-img-top shadow bg-white rounded" alt="...">
+                    </div>
+                    <h5 class="card-title course-title mt-2 ml-4">
+                        Landing Page for Candy museum
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">This is a page design for a fictional Candy museum. CSS Flexbox is used.</p>
+                      <a href="https://udemy.com" class="btn btn-primary">View Project</a>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 ">
+                <div class="card" style="width: 1fr;">
+                    <div class="image-card">
+                        <img src="/assets/covid.png" class="card-img-top shadow bg-white rounded" alt="...">
+                    </div>
+                    <h5 class="card-title course-title mt-2 ml-4">
+                        COVID-19 Tracker WebApp
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">This tracker shows current number of CoVID-19 Cases in world as well as India. Written in jQuery and uses API to fetch data. Updated every 2hours</p>
+                      <a href="https://udemy.com" class="btn btn-primary">View Project</a>
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<footer>
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="container text-center">
+                <p>Made with <i class="fas fa-heart" style="color: red;"></i> by Omkar Kulkarni</p>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+    
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="/script.js"></script>
+    </body>
+</html>

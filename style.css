@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Product Sans';
+}
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
+  
+
+#myBrand{
+    font-family: 'Product Sans';
+    
+}
+#nav-container li a{
+    font-size: 20px;
+    font-family: 'Product Sans';
+}
+
+#nav-container li a:hover{
+    background-color:#f4f4f4;
+}
+.myName{
+    font-size: 70px;
+    
+}
+#mainSVG{
+    width: auto;
+}
+
+#landingSectionName h1{
+    margin-top: 20vh;
+    font-size: 70px;
+    margin-left: px;
+}
+#landingImage{
+    margin-top: 40px;
+}
+#landingSectionName p{
+    font-size: 2rem;
+    color:gray;
+    text-align: justify;
+    margin-left: 130px;
+}
+@media(max-width:768px){
+    #landingSectionName h1{
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #landingSectionName p{
+        margin: 0 auto;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    #landingImage{
+        width: 70%;
+    }
+}
+.fab{
+    margin: auto 10px;
+}
+/* .fa-github{
+    font-size: 39px;
+    color:#24292E;
+} */
+.github i{
+    background: linear-gradient(45deg, #333333, #626b73);
+}
+.linkedin i {
+    background: linear-gradient(45deg, #62e0ff 0%, #2866b2 100%);
+}
+.twitter i {
+    background: linear-gradient(45deg, #1da1f2, #0e71c8);
+}
+.instagram i {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.icon-button i {
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    margin: 0 5px 10px;
+    color: white;
+}
+.social-buttons a:hover{
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+}
+#what{
+   margin-top: 120px;
+    font-size: 65px;
+}
+#whatIdo img{
+    width: 90%;
+}
+#whatIdo .col-lg-12{
+    margin-top: 69px;
+}
+#whatIdo .col-lg-12 .col-lg-6 h1{
+    font-size: 65px;
+}
+.inline-elements{
+    font-size: 69px;
+}
+.inline-elements img{
+    width: 10%;
+}
+.inline-elements{
+    margin: auto 10px;
+}
+#skillsPara{
+    font-size: 20px;
+    color: gray;
+}
+footer{
+    margin-top: 25px;
+}
+
+.inline-quals{
+    margin: 0 4px;
+}
+.inline-quals .hr  i{
+    font-size: 50px;
+    color: #2FC867;
+}
+.inline-quals .cc  img{
+    width: 10%;
+}
+.inline-quals .he  img{
+    width: 5%;
+}
+.card-header{
+   background-color: rgba(108,99,255,.9);
+   background-color: #55198B;
+   color: white;
+}
+.course-title{
+    font-size: 25px;
+    
+}
+.image-card{
+    background-color: black;
+}
+.card-img-top:hover{
+    opacity: 0.5;
+    transition: 0.5 ease-in;
+}
+.image-card h6{
+    display: none;
+    
+}
+#grid-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.box1{
+    justify-content: center;
+    align-items: center;
+}
+.box1 img{
+    display: grid;
+    width: 100%;
+}
+.box2{
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+}
+.box2 h1{
+    margin: 10vh;
+}
+
+
+.imageHolder img{
+    width: 100%;
+}
+.textHolder{
+    align-items: center;
+    margin-top: 80px;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.textHolder h1{
+    font-size: 64px;
+}
+.textHolder p{
+    font-size: 1.5rem;
+    color: gray;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #fff;
+    border: 1px solid purple;
+    color: purple;
+}
+.btn-primary:hover{
+    background-color: #55198B;
+    
+}
+#myPhoto{
+    margin: 0 auto;
+}
